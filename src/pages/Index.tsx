@@ -22,7 +22,7 @@ const Index = () => {
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-primary">Психотерапия</h1>
+            <h1 className="text-2xl font-bold text-primary">Морозова Анна Сергеевна</h1>
             <div className="hidden md:flex gap-6">
               {['home', 'services', 'about', 'education', 'contact'].map((section) => (
                 <button
@@ -49,8 +49,11 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-5xl font-bold text-foreground leading-tight">
-                Пространство для вашего внутреннего роста
+                Морозова Анна Сергеевна
               </h2>
+              <p className="text-2xl text-primary font-medium mb-2">
+                Психотерапевт
+              </p>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Приветствую вас в безопасном пространстве, где можно быть собой. 
                 Я помогаю людям найти внутренние ресурсы и обрести гармонию с собой.
@@ -67,7 +70,7 @@ const Index = () => {
               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
                 <img
                   src="https://cdn.poehali.dev/projects/af79428c-6c0f-4287-bdb6-cfc210b70509/files/b8281b8b-22ac-47d7-b64c-1ccbd7fb052d.jpg"
-                  alt="Психотерапевт"
+                  alt="Морозова Анна Сергеевна"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -281,7 +284,7 @@ const Index = () => {
 
       <footer className="py-8 px-4 border-t border-border bg-muted/20">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>© 2024 Психотерапевтическая практика. Все права защищены.</p>
+          <p>© 2024 Морозова Анна Сергеевна. Все права защищены.</p>
         </div>
       </footer>
     </div>
